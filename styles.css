@@ -204,3 +204,19 @@ body {
     margin-top: 60px;
     margin-left: 20px;
 }
+
+.logo_kuepa, .imagen_casa,
+.imagen_cuaderno, .imagen_secciones,
+.imagen_chat, .imagen_mujer {
+    display: block;
+    width: 17%;
+    height: 35px;
+    margin-left: 62px;
+    margin-top: 10px;
+}
+
+.imagen_mujer {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
