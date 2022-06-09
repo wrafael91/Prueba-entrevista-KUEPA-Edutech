@@ -15,7 +15,6 @@ body {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
-    border: 1px solid red;
 }
 
 .menu_izquierdo {
@@ -51,7 +50,157 @@ body {
     z-index: 5;
 }
 
+.seccion_superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen_fecha{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#fecha{
+    margin-right: 20px;
+}
+
+.iconos_clientes{
+    margin-top: 30px;
+}
+
 .seccion_principal h2 {
     margin-top: 60px;
     font-size: 45px;
+}
+
+.metricas_generales {
+    display: flex;
+}
+
+.titulo_leads_1 {
+    padding: 10px;
+}
+
+#leads_obtenidos, #leads_matriculas,
+#cola_llamados {
+    padding: 10px;
+}
+
+.metricas_cola {
+    display: inline-block;
+}
+
+.seccion_porcentajes {
+    display: flex;
+}
+
+.seccion_porcentajes_general {
+    margin-top: 20px;
+    display: flex;
+    background-color: #fff;
+    width: 420px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.imagen_50_pcto{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.seccion_mitad {
+    display: flex;
+}
+
+.meta_grupal_imagen {
+    margin: 20px 0 0 20px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.seccion_pendientes{
+    margin-top: 40px;
+    overflow-y: scroll;
+    width: 30%;
+    height: 300px;
+}
+
+.cliente {
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+}
+
+.icono_whatsapp, .icono_facebook {
+    width: 15px;
+    height: 15px;
+}
+
+.encabezado_cliente{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #636e72;
+    border-radius: 5px 5px 0 0;
+}
+
+.nombre_cliente{
+    padding: 10px;
+    height: 30px;
+    background-color: #535c68;
+    border-radius: 0 0 5px 5px;
+}
+
+.seccion_pendientes_y_metas{
+    display: flex;
+}
+
+.seccion_meta_hoy{
+    display: flex;
+}
+
+.seccion_meta {
+    margin-left: 50px;
+}
+
+.meta_1{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: end;
+    height: 110px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.meta_1 h3{
+    font-size: 40px;
+}
+
+.titulo_plan{
+    display: inline-block;
+}
+
+.titulo_seccion_meta_hoy{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.titulos_meta_hoy{
+    display: flex;
+}
+
+.titulos_meta_hoy p {
+    font-size: 10px;
+    margin-top: 60px;
+    margin-left: 20px;
 }
